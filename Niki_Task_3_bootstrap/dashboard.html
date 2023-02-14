@@ -1,0 +1,610 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 sidebarnew">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a class=" mt-5 navbar-brand logohere1 d-flex align-items-center pb-3 mb-md-0 me-md-auto text-decoration-none"
+                        href="#">
+                        <img src="./Vector.png" alt="" width="34" height="30" class="d-inline-block align-text-top ">
+                        <span class="fs-4 ms-2 d-none d-sm-inline lgimg">logohere</span>
+                    </a>
+                    <ul class="mt-5 nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                        id="menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi bi-columns-gap"></i>
+                                <span class="ms-1 d-none d-sm-inline">Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi bi-calendar3"></i>
+                                <span class="ms-1 d-none d-sm-inline">Calender</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi bi-kanban-fill"></i>
+                                <span class="ms-1 d-none d-sm-inline">Projects</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                <i class="fs-4 bi bi-people"></i>
+                                <span class="ms-1 d-none d-sm-inline">Teams</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                <i class="fs-4 bi bi-gear-fill"></i>
+                                <span class="ms-1 d-none d-sm-inline">Settings</span>
+                            </a>
+                        </li>
+                        <li class="d-flex justify-content-center w-100">
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle mt-4">
+                                <img class="" src="./Group 39774.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-sm-10 col-md-12">
+                        <!-- second side navbar -->
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8">
+                                <nav class="navbar mt-4">
+                                    <form class="d-flex w-100" role="search">
+                                        <input class="form-control me-2 searchbar" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <i class="fa fa-search"></i>
+                                        <button class="btn search-btn" type="submit">Search</button>
+                                    </form>
+                                </nav>
+                            </div>
+                            <div class="col">
+                                <!-- profile -->
+                                <div class="profile mt-4">
+                                    <p class="me-4 fw-bold d-sm-none d-md-block">Jane Cooper</p>
+                                    <img src="./Ellipse 119.png" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- second side content -->
+                        <div class="row">
+                            <!-- second side start -->
+                            <div class="col-xl-8 col-lg-12 col-sm-12">
+                                <!-- cards -->
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="card-heading d-flex justify-content-between">
+                                                    <p class="card-title">Monthly Working Hours</p>
+                                                    <p class="card-subtitle mb-2">
+                                                        <i class="bi bi-calendar3 fs-4 ms-2"></i>
+                                                    </p>
+                                                </div>
+                                                <h2 class="mt-3">160</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="card-heading d-flex justify-content-between">
+                                                    <p class="card-title">Weekly Working Hours</p>
+                                                    <p class="card-subtitle mb-2">
+                                                        <i class="bi bi-clock-fill fs-4 ms-2"></i>
+                                                    </p>
+                                                </div>
+                                                <h2 class="mt-3">40</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="card-heading d-flex justify-content-between">
+                                                    <p class="card-title">Late Days</p>
+                                                    <p class="card-subtitle mb-2">
+                                                        <img src="./run.png" alt="" class="img" height="25px"
+                                                            width="30px">
+                                                    </p>
+                                                </div>
+                                                <h2 class="mt-3">9</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="card-heading d-flex justify-content-between">
+                                                    <p class="card-title">Leave Without Pay</p>
+                                                    <p class="card-subtitle mb-2">
+                                                        <i class="bi bi-emoji-frown-fill fs-4 ms-2"></i>
+                                                    </p>
+                                                </div>
+                                                <h2 class="mt-3">2</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- flex-div table -->
+                                <div class="flex-table d-flex my-4 bg-white py-3">
+                                    <div class="lr p-3 d-flex flex-column justify-content-between" style="width: 33%;">
+                                        <div class="flex-div-tab">Leaves Remaining</div>
+                                        <h2 class="lr-count">10</h2>
+                                    </div>
+                                    <!-- <div class="vr"></div> -->
+                                    <div class="p-3 lt d-flex flex-column justify-content-between" style="width: 33%;">
+                                        <div class="flex-div-tab">Leaves Taken</div>
+                                        <h2 class="lt-count">06</h2>
+                                    </div>
+                                    <!-- <div class="vr"></div> -->
+                                    <div class="p-3 lp d-flex flex-column justify-content-between" style="width: 33%;">
+                                        <div class="flex-div-tab">Leaves Pending To Approve</div>
+                                        <h2 class="lp-count">01</h2>
+                                    </div>
+                                </div>
+
+                                <!-- Employee on leave & conversation -->
+                                <div class="row">
+                                    <div class="col-xl-7 col-lg-12 col-md-12 ">
+                                        <table class="table table-borderless">
+                                            <h4 class="mb-3 tab-title">Employee On Leave Today</h4>
+                                            <thead class="table-headings">
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Duration</th>
+                                                    <th>Leave Starts</th>
+                                                    <th>Leave Ends</th>
+                                                    <th>Time</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="bg-white">
+                                                <tr>
+                                                    <td>John Doe</td>
+                                                    <td>3.00 days</td>
+                                                    <td>12/01/23</td>
+                                                    <td>14/01/23</td>
+                                                    <td>Full Day</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>John Doe</td>
+                                                    <td>3.00 days</td>
+                                                    <td>12/01/23</td>
+                                                    <td>14/01/23</td>
+                                                    <td>Full Day</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>John Doe</td>
+                                                    <td>3.00 days</td>
+                                                    <td>12/01/23</td>
+                                                    <td>14/01/23</td>
+                                                    <td>Full Day</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>John Doe</td>
+                                                    <td>3.00 days</td>
+                                                    <td>12/01/23</td>
+                                                    <td>14/01/23</td>
+                                                    <td>Full Day</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>John Doe</td>
+                                                    <td>3.00 days</td>
+                                                    <td>12/01/23</td>
+                                                    <td>14/01/23</td>
+                                                    <td>Full Day</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>John Doe</td>
+                                                    <td>3.00 days</td>
+                                                    <td>12/01/23</td>
+                                                    <td>14/01/23</td>
+                                                    <td>Full Day</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5" class="text-center">
+                                                        <a href="" class="view-all">View
+                                                            All</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-xl-5 col-lg-12 col-md-12">
+                                        <h4 class="mb-3 tab-title">Conversation</h4>
+                                        <div class="conversation p-2 bg-white overflow-auto">
+                                            <div class="c-actions">
+                                                <nav class="nav d-flex justify-content-center align-items-center">
+                                                    <a class="nav-link active latest" href="#">Latest Chats</a>
+
+                                                    <a class="nav-link schedule" href="#">Scheduled Post</a>
+
+                                                    <div class="dropdown">
+                                                        <i class="dp bi bi-three-dots fs-3 dropdown-toggle"
+                                                            id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                            aria-expanded="false"></i>
+                                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                            <li>
+                                                                <a class="dropdown-item" href="#">
+                                                                    <i class="bi bi-pen-fill"></i>
+                                                                    Edit
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="dropdown-item" href="#">
+                                                                    <i class="bi bi-trash3-fill"></i>
+                                                                    Delete
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </nav>
+                                            </div>
+
+                                            <div class="post d-flex mt-2">
+                                                <div class="left-side d-flex justify-content-start align-items-start">
+                                                    <p class="post-date mt-3">Dec28</p>
+                                                    <img src="./Rectangle 627.png" alt="">
+                                                </div>
+
+                                                <div class="right-side ms-3">
+                                                    <p class="fw-bold m-0 right-name">Yatri Patel</p>
+
+                                                    <p class="right-content">The tasks which we submitted yesterday
+                                                        requires
+                                                        design...
+                                                    </p>
+
+                                                    <div class="lcs d-flex justify-content-around">
+                                                        <div class="d-flex align-items-start">
+                                                            <img src="./Combined-Shape.png" height="20px" />
+                                                            <p class="ms-1">39</p>
+                                                        </div>
+
+                                                        <div class="d-flex align-items-start">
+                                                            <img src="./Combined-Shape2.png" height="20px" />
+                                                            <p class="ms-1">24</p>
+                                                        </div>
+
+                                                        <div class="d-flex align-items-start">
+                                                            <img src="./Combined-Shape3.png" height="20px" />
+                                                            <p class="ms-1">102</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post d-flex mt-2">
+                                                <div class="left-side d-flex justify-content-start align-items-start"
+                                                    height="40px">
+                                                    <p class="post-date mt-3">Dec28</p>
+                                                    <img src="./Rectangle 628.png" alt="">
+                                                </div>
+                                                <div class="right-side ms-3">
+                                                    <p class="fw-bold m-0 right-name">Kinnari Patel</p>
+                                                    <p class="right-content">The tasks which we submitted yesterday
+                                                        requires
+                                                        design...
+                                                    </p>
+                                                    <div class="lcs d-flex justify-content-around">
+                                                        <div class="d-flex align-items-start">
+                                                            <img src="./Combined-Shape.png" height="20px" />
+                                                            <p class="ms-1">39</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-start">
+                                                            <img src="./Combined-Shape2.png" height="20px" />
+                                                            <p class="ms-1">24</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-start">
+                                                            <img src="./Combined-Shape3.png" height="20px" />
+                                                            <p class="ms-1">102</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="text-center mt-2">
+                                                <a href="" class="view-all">View All</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Assigned task -->
+                                <h4 class="mb-3 mt-3 tab-title">Assigned Tasks</h4>
+                                <table class="table table-borderless">
+                                    <thead class="table-headings">
+                                        <tr>
+                                            <th>Task Name</th>
+                                            <th>Date</th>
+                                            <th>Logged Hours</th>
+                                            <th>task Efficiency</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white">
+                                        <tr>
+                                            <td>Magento-VP file-edits</td>
+                                            <td>02 Jan 2023</td>
+                                            <td>04:00 hrs</td>
+                                            <td class="text-success fw-bold">100%</td>
+                                            <td>
+                                                <i class="bi bi-three-dots-vertical ms-3"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Magento-VP file-edits</td>
+                                            <td>02 Jan 2023</td>
+                                            <td>04:00 hrs</td>
+                                            <td class="text-success fw-bold">100%</td>
+                                            <td>
+                                                <i class="bi bi-three-dots-vertical ms-3"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Magento-VP file-edits</td>
+                                            <td>02 Jan 2023</td>
+                                            <td>04:00 hrs</td>
+                                            <td class="text-success fw-bold">100%</td>
+                                            <td>
+                                                <i class="bi bi-three-dots-vertical ms-3"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="5" class="text-center">
+                                                <a href="" class="view-all">View All</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- second side end -->
+
+
+                            <!-- third side start -->
+                            <div class="col-xl-4 col-lg-12 col-sm-12">
+                                <!-- Birthdays today -->
+                                <div class="birthday">
+                                    <div class="third-heading d-flex justify-content-between p-2 px-3">
+                                        <p class="fw-bold mb-0">Birthdays Today</p>
+                                        <img src="./Group.png" />
+                                    </div>
+
+                                    <div class="b-person pt-3 bg-white">
+                                        <ul class="m-0">
+                                            <li class="person" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Ellipse 121.png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Shubham Mehta</p>
+                                                        <p class="p-designation">UX/UI Designer</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <hr class="ms-2 me-5 m-0" />
+                                            <li class="person mt-1" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Ellipse 121 (1).png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Shubham Mehta</p>
+                                                        <p class="p-designation">UX/UI Designer</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Work Anniversary -->
+                                <div class="work-anniversary">
+                                    <div class="third-heading d-flex justify-content-between p-2 px-3">
+                                        <p class="fw-bold mb-0">Work Anniversary</p>
+                                        <img src="./Group2.png" />
+                                    </div>
+
+                                    <div class="b-person pt-3 bg-white">
+                                        <ul class="m-0 p-4">
+                                            <li class="person" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Ellipse 121 (2).png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Suraj Kushwaha</p>
+                                                        <p class="p-designation">UX/UI Designer</p>
+                                                    </div>
+                                                    <p class="fw-bold" style="    margin-left: auto;">1 year</p>
+                                                </div>
+                                            </li>
+
+                                            <hr class="ms-2 m-0" />
+                                            <li class="person mt-1" style="list-style: none;">
+                                                <div class="d-flex flex-row ">
+                                                    <img src="./Ellipse 121 (3).png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Vishal Prajapati</p>
+                                                        <p class="p-designation">UX/UI Designer</p>
+                                                    </div>
+                                                    <p class="fw-bold" style="    margin-left: auto;">2 year</p>
+                                                </div>
+                                            </li>
+
+                                            <hr class="ms-2 m-0" />
+                                            <li class="person mt-1" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Ellipse 121 (4).png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Uttam Vora</p>
+                                                        <p class="p-designation">UX/UI Designer</p>
+                                                    </div>
+                                                    <p class="fw-bold" style="    margin-left: auto;">3 year</p>
+                                                </div>
+                                            </li>
+
+                                            <hr class="ms-2 m-0" />
+                                            <li class="person mt-1" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Ellipse 121 (5).png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Suraj Kushwaha</p>
+                                                        <p class="p-designation">UX/UI Designer</p>
+                                                    </div>
+                                                    <p class="fw-bold" style="    margin-left: auto;">3 year</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Holidays -->
+                                <div class="holiday">
+                                    <div class="third-heading d-flex justify-content-between p-2 px-3">
+                                        <p class="fw-bold mb-0">Holidays</p>
+                                        <img src="./Group (1).png" />
+                                    </div>
+                                    <div class="b-person pt-3 bg-white">
+                                        <ul class="m-0">
+                                            <li class="person" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Group 262.png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Uttrayan</p>
+                                                        <div class="p-date">
+                                                            14 jan 2023
+                                                            <div class="vr"></div> Friday
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="person mt-4" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Group 262.png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Vasi Uttrayan</p>
+                                                        <div class="p-date">
+                                                            15 Jan 2023
+                                                            <div class="vr"></div> Saturday
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="person mt-4" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Group 263.png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Republic Day
+
+                                                        </p>
+                                                        <div class="p-date">
+                                                            26 Jan 2023
+                                                            <div class="vr"></div> Wednesday
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="person mt-4" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./holi.png" class="me-4" width="40px" height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Holi</p>
+                                                        <div class="p-date">
+                                                            08 Mar 2023
+                                                            <div class="vr"></div> Thursday
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="person mt-4" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./rakhi 1.png" class="me-4" width="40px" height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Rakshabandhan</p>
+                                                        <div class="p-date">
+                                                            11 Aug 2023
+                                                            <div class="vr"></div> Wednesday
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="person mt-4" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./Group 263.png" class="me-4" width="40px"
+                                                        height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Republic Day</p>
+                                                        <div class="p-date">
+                                                            26 Jan 2023
+                                                            <div class="vr"></div> Wednesday
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="person mt-4" style="list-style: none;">
+                                                <div class="d-flex flex-row">
+                                                    <img src="./holi.png" class="me-4" width="40px" height="40px" />
+                                                    <div class="d-flex flex-column">
+                                                        <p class="p-name m-0">Holi</p>
+                                                        <div class="p-date">
+                                                            15 Jan 2023
+                                                            <div class="vr"></div> Friday
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third side end -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

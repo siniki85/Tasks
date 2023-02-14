@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Inter';
+    margin: 0;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Arbutus Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+    color: #F2F2F2;
+}
+
+
+.about-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 46px;
+    color: #1D1D1F;
+}
+
+.about-content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+
+.container .row .about {
+    display: flex;
+    /* padding: 30px; */
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cat-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1D1D1F;
+}
+
+.row .col-9 .inner {
+    background: #DDF3FF;
+    border-radius: 16px;
+}
+
+
+.container .row .col-8,
+.col-4 {
+    padding: 0;
+}
+
+.contact {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 140%;
+    word-spacing: 10px;
+    text-align: center;
+    color: #000054;
+}
+
+.form {
+    max-width: 60%;
+}
+
+.form-control {
+    background: #F8F8F8;
+    border: none;
+    border-radius: 8px;
+}
+
+.send {
+    background: #0066FF;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.f-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.f-content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.icons .bi {
+    color: #23A6F0;
+    padding: 5px;
+}
+
+.h5-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.mb-2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.bottom-part {
+    text-align: center;
+}
+
+/* hover effects start */
+
+.nav-item .bi-cart3:hover {
+    transform: scale(1.1);
+}
+
+.bell:hover {
+    transform: scale(1.1);
+}
+
+.view:hover {
+    transition: all 1.5s;
+    box-shadow: 0 4px 8px 0 rgba(130, 176, 241, 0.2), 0 6px 20px 0 rgba(107, 149, 196, 0.19);
+}
+
+.send:hover {
+    transition: all 1.5s;
+    background: #FFFFFF;
+    color: #0066FF;
+    box-shadow: 0 4px 8px 0 rgba(130, 176, 241, 0.2), 0 6px 20px 0 rgba(107, 149, 196, 0.19);
+}
+
+.icons {
+    gap: 20px;
+    display: flex;
+}
+
+.icons .bi:hover {
+    transform: scale(1.5);
+}
+/* hover effects end */
